@@ -33,6 +33,6 @@ class ParkingLot:
         return True
     return False
   
-  def displayAvailabilty(self) -> None:
+  def displayAvailability(self) -> None:
     for level in self.levels:
       level.displayAvailability()
