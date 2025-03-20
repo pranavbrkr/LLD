@@ -1,7 +1,7 @@
 from typing import List
-from Examples.ParkingLot2.parking_floor import ParkingFloor
-from Examples.ParkingLot2.parking_spot import ParkingSpot
-from Examples.ParkingLot2.vehicle import Vehicle
+from parking_floor import ParkingFloor
+from parking_spot import ParkingSpot
+from vehicle import Vehicle
 
 
 class ParkingLot:
