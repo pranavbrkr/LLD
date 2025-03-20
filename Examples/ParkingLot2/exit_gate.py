@@ -1,5 +1,5 @@
-from Examples.ParkingLot2.parking_lot import ParkingLot
-from Examples.ParkingLot2.payment_service import PaymentService
+from parking_lot import ParkingLot
+from payment_service import PaymentService
 
 
 class ExitGate:
