@@ -2,7 +2,7 @@ class Inventory:
   def __init__(self):
     self.products = {}
 
-  def addProducts(self, product, quantity):
+  def addProduct(self, product, quantity):
     self.products[product] = quantity
 
   def removeProducts(self, product):
