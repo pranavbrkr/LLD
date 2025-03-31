@@ -5,4 +5,4 @@ class DebugLogger(AbstractLogger):
     super().__init__(levels)
 
   def display(self, msg, logger_subject):
-    logger_subject.notifyAllObservers(1, f"DEBUG: {msg}")
+    logger_subject.notifyAllObservers(3, f"DEBUG: {msg}")
